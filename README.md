@@ -42,6 +42,6 @@ I've successfully managed to copy ALL the contents of my messy Desktop (24.2GB!)
 
 ![copy-test](https://i.imgur.com/xVYCNvi.png)
 
-# Future Considerations
+# Future Considerations (To do)
 
 This app simply uses recursion to copy all the contents of the selected folder `synchronously`. However, there is a faster way to copy contents and that is in `parallel` with the use of threads; which is a consideration for a possible feature.
