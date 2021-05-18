@@ -1,6 +1,6 @@
-# JustCopy Console App with C# and .NET Core
+# Folder-Copying Console App with C# and .NET Core
 
-This app simply prompts the user to select a directory for copying and for a target directory to copy it to.
+This app simply prompts the user to select a folder to copy and a target directory to copy it to.
 It then recursively copies all the contents including any sub-folders and files.
 
 # How to build
@@ -41,3 +41,7 @@ The value 1000 worked fine for my tests.
 I've successfully managed to copy ALL the contents of my messy Desktop (24.2GB!) in 6.81 minutes!
 
 ![copy-test](https://i.imgur.com/xVYCNvi.png)
+
+# Furure Considerations
+
+This app simply uses recursion to copy all the contents of the selected folder `synchronously`. However, there is a faster way to copy contents and that is in `parallel` with the use of threads; which is a consideration for a possible feature.
